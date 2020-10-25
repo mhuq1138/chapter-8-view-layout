@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512D85FB2541A19600762136 /* Custom_Alignment_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D85FA2541A19600762136 /* Custom_Alignment_ExamplesApp.swift */; };
+		512D85FD2541A19600762136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D85FC2541A19600762136 /* ContentView.swift */; };
+		512D85FF2541A19B00762136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512D85FE2541A19B00762136 /* Assets.xcassets */; };
+		512D86022541A19B00762136 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512D86012541A19B00762136 /* Preview Assets.xcassets */; };
+		512D860B2541A1BF00762136 /* CustomAlignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D860A2541A1BF00762136 /* CustomAlignments.swift */; };
+		512D860E2541A31D00762136 /* CustomHorizontalAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D860D2541A31D00762136 /* CustomHorizontalAlignmentView.swift */; };
+		512D86112541A37500762136 /* MyRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D86102541A37500762136 /* MyRectangleView.swift */; };
+		512D86142541C95B00762136 /* CustomVerticalAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D86132541C95B00762136 /* CustomVerticalAlignmentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		512D85F72541A19600762136 /* Custom Alignment Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Alignment Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512D85FA2541A19600762136 /* Custom_Alignment_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Alignment_ExamplesApp.swift; sourceTree = "<group>"; };
+		512D85FC2541A19600762136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		512D85FE2541A19B00762136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512D86012541A19B00762136 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		512D86032541A19B00762136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512D860A2541A1BF00762136 /* CustomAlignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignments.swift; sourceTree = "<group>"; };
+		512D860D2541A31D00762136 /* CustomHorizontalAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHorizontalAlignmentView.swift; sourceTree = "<group>"; };
+		512D86102541A37500762136 /* MyRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRectangleView.swift; sourceTree = "<group>"; };
+		512D86132541C95B00762136 /* CustomVerticalAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVerticalAlignmentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512D85F42541A19600762136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512D85EE2541A19600762136 = {
+			isa = PBXGroup;
+			children = (
+				512D85F92541A19600762136 /* Custom Alignment Examples */,
+				512D85F82541A19600762136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512D85F82541A19600762136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512D85F72541A19600762136 /* Custom Alignment Examples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512D85F92541A19600762136 /* Custom Alignment Examples */ = {
+			isa = PBXGroup;
+			children = (
+				512D85FA2541A19600762136 /* Custom_Alignment_ExamplesApp.swift */,
+				512D85FC2541A19600762136 /* ContentView.swift */,
+				512D860D2541A31D00762136 /* CustomHorizontalAlignmentView.swift */,
+				512D86132541C95B00762136 /* CustomVerticalAlignmentView.swift */,
+				512D86102541A37500762136 /* MyRectangleView.swift */,
+				512D860A2541A1BF00762136 /* CustomAlignments.swift */,
+				512D85FE2541A19B00762136 /* Assets.xcassets */,
+				512D86032541A19B00762136 /* Info.plist */,
+				512D86002541A19B00762136 /* Preview Content */,
+			);
+			path = "Custom Alignment Examples";
+			sourceTree = "<group>";
+		};
+		512D86002541A19B00762136 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				512D86012541A19B00762136 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512D85F62541A19600762136 /* Custom Alignment Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512D86062541A19B00762136 /* Build configuration list for PBXNativeTarget "Custom Alignment Examples" */;
+			buildPhases = (
+				512D85F32541A19600762136 /* Sources */,
+				512D85F42541A19600762136 /* Frameworks */,
+				512D85F52541A19600762136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Alignment Examples";
+			productName = "Custom Alignment Examples";
+			productReference = 512D85F72541A19600762136 /* Custom Alignment Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512D85EF2541A19600762136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					512D85F62541A19600762136 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 512D85F22541A19600762136 /* Build configuration list for PBXProject "Custom Alignment Examples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512D85EE2541A19600762136;
+			productRefGroup = 512D85F82541A19600762136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512D85F62541A19600762136 /* Custom Alignment Examples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512D85F52541A19600762136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512D86022541A19B00762136 /* Preview Assets.xcassets in Resources */,
+				512D85FF2541A19B00762136 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512D85F32541A19600762136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512D85FD2541A19600762136 /* ContentView.swift in Sources */,
+				512D86142541C95B00762136 /* CustomVerticalAlignmentView.swift in Sources */,
+				512D86112541A37500762136 /* MyRectangleView.swift in Sources */,
+				512D860E2541A31D00762136 /* CustomHorizontalAlignmentView.swift in Sources */,
+				512D85FB2541A19600762136 /* Custom_Alignment_ExamplesApp.swift in Sources */,
+				512D860B2541A1BF00762136 /* CustomAlignments.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		512D86042541A19B00762136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		512D86052541A19B00762136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512D86072541A19B00762136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Custom Alignment Examples/Preview Content\"";
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Custom Alignment Examples/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.Custom-Alignment-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512D86082541A19B00762136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Custom Alignment Examples/Preview Content\"";
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Custom Alignment Examples/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.Custom-Alignment-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512D85F22541A19600762136 /* Build configuration list for PBXProject "Custom Alignment Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512D86042541A19B00762136 /* Debug */,
+				512D86052541A19B00762136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512D86062541A19B00762136 /* Build configuration list for PBXNativeTarget "Custom Alignment Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512D86072541A19B00762136 /* Debug */,
+				512D86082541A19B00762136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512D85EF2541A19600762136 /* Project object */;
+}

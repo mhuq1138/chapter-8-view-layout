@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512D862525422CB400762136 /* GeometryReader_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D862425422CB400762136 /* GeometryReader_ExamplesApp.swift */; };
+		512D862725422CB400762136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D862625422CB400762136 /* ContentView.swift */; };
+		512D862925422CB800762136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512D862825422CB800762136 /* Assets.xcassets */; };
+		512D862C25422CB800762136 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512D862B25422CB800762136 /* Preview Assets.xcassets */; };
+		512D863525422CD300762136 /* SimpleGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D863425422CD300762136 /* SimpleGeometryReaderView.swift */; };
+		512EAE9F25430FD600B0FB59 /* FrameCoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAE9E25430FD600B0FB59 /* FrameCoordinatesView.swift */; };
+		512EAEA225430FEC00B0FB59 /* CustomCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAEA125430FEC00B0FB59 /* CustomCoordinateView.swift */; };
+		512EAEA52543100600B0FB59 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAEA42543100600B0FB59 /* GeometryReaderView.swift */; };
+		512EAEA82543275A00B0FB59 /* VerticalStripesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAEA72543275A00B0FB59 /* VerticalStripesView.swift */; };
+		512EAEAB25433CD900B0FB59 /* OverlayRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAEAA25433CD900B0FB59 /* OverlayRectangleView.swift */; };
+		512EAEAE25433CF300B0FB59 /* TopRoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAEAD25433CF300B0FB59 /* TopRoundedCornerView.swift */; };
+		512EAEB125433D8C00B0FB59 /* BackgroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EAEB025433D8C00B0FB59 /* BackgroundAndOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		512D862125422CB400762136 /* GeometryReader Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeometryReader Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512D862425422CB400762136 /* GeometryReader_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_ExamplesApp.swift; sourceTree = "<group>"; };
+		512D862625422CB400762136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		512D862825422CB800762136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512D862B25422CB800762136 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		512D862D25422CB800762136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512D863425422CD300762136 /* SimpleGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeometryReaderView.swift; sourceTree = "<group>"; };
+		512EAE9E25430FD600B0FB59 /* FrameCoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameCoordinatesView.swift; sourceTree = "<group>"; };
+		512EAEA125430FEC00B0FB59 /* CustomCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCoordinateView.swift; sourceTree = "<group>"; };
+		512EAEA42543100600B0FB59 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		512EAEA72543275A00B0FB59 /* VerticalStripesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStripesView.swift; sourceTree = "<group>"; };
+		512EAEAA25433CD900B0FB59 /* OverlayRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayRectangleView.swift; sourceTree = "<group>"; };
+		512EAEAD25433CF300B0FB59 /* TopRoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoundedCornerView.swift; sourceTree = "<group>"; };
+		512EAEB025433D8C00B0FB59 /* BackgroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512D861E25422CB400762136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512D861825422CB400762136 = {
+			isa = PBXGroup;
+			children = (
+				512D862325422CB400762136 /* GeometryReader Examples */,
+				512D862225422CB400762136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512D862225422CB400762136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512D862125422CB400762136 /* GeometryReader Examples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512D862325422CB400762136 /* GeometryReader Examples */ = {
+			isa = PBXGroup;
+			children = (
+				512D862425422CB400762136 /* GeometryReader_ExamplesApp.swift */,
+				512D862625422CB400762136 /* ContentView.swift */,
+				512D863425422CD300762136 /* SimpleGeometryReaderView.swift */,
+				512EAE9E25430FD600B0FB59 /* FrameCoordinatesView.swift */,
+				512EAEA125430FEC00B0FB59 /* CustomCoordinateView.swift */,
+				512EAEA42543100600B0FB59 /* GeometryReaderView.swift */,
+				512EAEA72543275A00B0FB59 /* VerticalStripesView.swift */,
+				512EAEB025433D8C00B0FB59 /* BackgroundAndOverlayView.swift */,
+				512EAEAA25433CD900B0FB59 /* OverlayRectangleView.swift */,
+				512EAEAD25433CF300B0FB59 /* TopRoundedCornerView.swift */,
+				512D862825422CB800762136 /* Assets.xcassets */,
+				512D862D25422CB800762136 /* Info.plist */,
+				512D862A25422CB800762136 /* Preview Content */,
+			);
+			path = "GeometryReader Examples";
+			sourceTree = "<group>";
+		};
+		512D862A25422CB800762136 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				512D862B25422CB800762136 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512D862025422CB400762136 /* GeometryReader Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512D863025422CB800762136 /* Build configuration list for PBXNativeTarget "GeometryReader Examples" */;
+			buildPhases = (
+				512D861D25422CB400762136 /* Sources */,
+				512D861E25422CB400762136 /* Frameworks */,
+				512D861F25422CB400762136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeometryReader Examples";
+			productName = "GeometryReader Examples";
+			productReference = 512D862125422CB400762136 /* GeometryReader Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512D861925422CB400762136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					512D862025422CB400762136 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 512D861C25422CB400762136 /* Build configuration list for PBXProject "GeometryReader Examples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512D861825422CB400762136;
+			productRefGroup = 512D862225422CB400762136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512D862025422CB400762136 /* GeometryReader Examples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512D861F25422CB400762136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512D862C25422CB800762136 /* Preview Assets.xcassets in Resources */,
+				512D862925422CB800762136 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512D861D25422CB400762136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512EAEAE25433CF300B0FB59 /* TopRoundedCornerView.swift in Sources */,
+				512D862725422CB400762136 /* ContentView.swift in Sources */,
+				512EAEA225430FEC00B0FB59 /* CustomCoordinateView.swift in Sources */,
+				512EAEA82543275A00B0FB59 /* VerticalStripesView.swift in Sources */,
+				512D863525422CD300762136 /* SimpleGeometryReaderView.swift in Sources */,
+				512EAE9F25430FD600B0FB59 /* FrameCoordinatesView.swift in Sources */,
+				512D862525422CB400762136 /* GeometryReader_ExamplesApp.swift in Sources */,
+				512EAEA52543100600B0FB59 /* GeometryReaderView.swift in Sources */,
+				512EAEAB25433CD900B0FB59 /* OverlayRectangleView.swift in Sources */,
+				512EAEB125433D8C00B0FB59 /* BackgroundAndOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		512D862E25422CB800762136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		512D862F25422CB800762136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512D863125422CB800762136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometryReader Examples/Preview Content\"";
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GeometryReader Examples/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.GeometryReader-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512D863225422CB800762136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometryReader Examples/Preview Content\"";
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GeometryReader Examples/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.GeometryReader-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512D861C25422CB400762136 /* Build configuration list for PBXProject "GeometryReader Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512D862E25422CB800762136 /* Debug */,
+				512D862F25422CB800762136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512D863025422CB800762136 /* Build configuration list for PBXNativeTarget "GeometryReader Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512D863125422CB800762136 /* Debug */,
+				512D863225422CB800762136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512D861925422CB400762136 /* Project object */;
+}
